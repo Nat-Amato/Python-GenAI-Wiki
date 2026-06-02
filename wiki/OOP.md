@@ -1,0 +1,10 @@
+Termine: Programmazione Orientata agli Oggetti (OOP) - I quattro pilastri
+
+Descrizione:
+I quattro principi fondamentali dell'OOP sono [[Incapsulamento]] (proteggere i dati interni di un oggetto rendendoli inaccessibili dall'esterno), [[Astrazione]] (esporre solo le funzionalità essenziali all'utente, nascondendo la complessità interna), [[Ereditarietà]] (creare nuove classi a partire da classi esistenti per riutilizzarne il codice) e [[Polimorfismo]] (permettere a oggetti di classi diverse di rispondere alla stessa azione, ognuno a modo suo). Insieme, questi concetti permettono di scrivere codice modulare, scalabile, sicuro e facilmente manutenibile.
+
+Contesto:
+Sviluppo software, ingegneria informatica, architettura dei sistemi (es. Java, C++, [[Python]], C#).
+
+Esempio:
+Pensando a un'automobile: l'[[astrazione]] ti permette di guidarla usando volante e pedali senza conoscere la meccanica del motore; l'[[incapsulamento]] impedisce a chiunque di modificare direttamente la miscela aria-carburante mentre guidi; l'[[ereditarietà]] fa sì che sia un'Auto Sportiva sia un Camion condividano le caratteristiche base di un generico "Veicolo"; il [[polimorfismo]] garantisce che se premi il freno (azione comune), l'Auto Sportiva si fermi in 30 metri e il Camion in 100 metri.

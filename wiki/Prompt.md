@@ -1,0 +1,10 @@
+Termine: Prompt
+
+Descrizione:
+Un prompt è un'istruzione, una domanda o un testo fornito da un utente a un sistema informatico per fargli eseguire un'operazione. Nell'ambito dell'Intelligenza Artificiale Generativa, è la frase o il comando testuale che guida il modello nella generazione della risposta o del contenuto desiderato (testo, immagine, codice, ecc.). (Nota: nell'informatica tradizionale, il termine indica anche il cursore o la riga di testo all'interno di un terminale che segnala che il sistema è in attesa di un comando).
+
+Contesto:
+Intelligenza Artificiale Generativa, ingegneria dei prompt ([[prompt engineering]]), interazione uomo-macchina e interfacce a riga di comando.
+
+Esempio:
+Scrivere a un chatbot "Riassumi questo testo in tre punti chiave mantenendo un tono formale" è un classico esempio di prompt.

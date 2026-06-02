@@ -1,0 +1,10 @@
+Termine: Token (negli [[LLM]])
+
+Descrizione:
+Nel contesto dei Large Language Models, un token è l'unità logica di base in cui viene frammentato un testo affinché l'intelligenza artificiale possa leggerlo, elaborarlo e generare una risposta. Un singolo token non corrisponde necessariamente a una parola intera: a seconda del modello e della lingua, può rappresentare una parola comune, un pezzo di parola (come una sillaba) o persino un singolo carattere. L'elaborazione del testo avviene calcolando matematicamente le relazioni tra questi token, che fungono anche da unità di misura per determinare i limiti di memoria del modello (la cosiddetta [[context window]]) e i costi di utilizzo dei servizi AI.
+
+Contesto:
+Intelligenza Artificiale Generativa, Elaborazione del Linguaggio Naturale (NLP) e Large Language Models ([[LLM]]).
+
+Esempio:
+La parola italiana "casa" viene tipicamente letta dall'AI come 1 singolo token, mentre una parola più complessa o non comune come "precipitevolissimevolmente" potrebbe essere spezzata dal sistema in 5 o 6 token distinti (es. "pre" - "cipi" - "tevol" - ecc.) per poterne calcolare il significato.

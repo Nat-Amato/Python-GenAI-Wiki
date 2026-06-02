@@ -1,0 +1,10 @@
+Termine: RAG (Retrieval-Augmented Generation)
+
+Descrizione:
+La RAG (Generazione Aumentata dal Recupero) è una tecnica di intelligenza artificiale che migliora l'accuratezza dei modelli linguistici ([[LLM]]) fornendo loro l'accesso a fonti di dati esterne. Invece di affidarsi esclusivamente alla memoria interna derivante dal proprio addestramento, il sistema prima cerca informazioni specifiche e aggiornate in un database, per poi utilizzarle come base per generare una risposta testuale. Questo approccio riduce notevolmente il rischio che l'intelligenza artificiale generi risposte errate o inventate (allucinazioni).
+
+Contesto:
+Intelligenza Artificiale, sviluppo di assistenti virtuali (chatbot) aziendali, gestione documentale e ricerca semantica.
+
+Esempio:
+Se chiedi a un chatbot le direttive interne per ottenere un rimborso, la RAG cerca prima il file PDF delle policy aggiornate nei server aziendali e poi formula la risposta basandosi unicamente su quel documento.

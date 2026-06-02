@@ -1,0 +1,10 @@
+Termine: Polimorfismo
+
+Descrizione:
+Il polimorfismo è il principio che permette a oggetti di classi diverse di rispondere alla stessa azione o comando, ognuno eseguendolo a modo proprio. Nella programmazione, consente di utilizzare un'unica istruzione per interagire con tipi di dati o componenti differenti, riducendo la necessità di scrivere codice specifico per ogni singola eventualità. Questo rende il software molto più flessibile e facile da espandere con nuove funzionalità. (Nota: al di fuori dell'informatica, in biologia indica la coesistenza di più forme fisiche o varianti genetiche all'interno di una stessa specie).
+
+Contesto:
+Sviluppo software, Programmazione Orientata agli Oggetti ([[OOP]]) e biologia.
+
+Esempio:
+Immagina un tasto "Play": se lo premi su un lettore video, partirà un filmato; se lo premi su un lettore CD, partirà una canzone. Il comando è sempre lo stesso (polimorfismo), ma il comportamento specifico cambia a seconda dell'oggetto che lo riceve.
