@@ -1,0 +1,10 @@
+Termine: Python
+
+Descrizione:
+Python è un linguaggio di programmazione ad alto livello, ampiamente utilizzato e apprezzato per la sua sintassi semplice, intuitiva e molto simile al linguaggio naturale. È estremamente versatile e supporta diversi stili di sviluppo, permettendo di scrivere codice chiaro, compatto e facilmente leggibile per progetti di qualsiasi dimensione. (Nota: al di fuori dell'ambito tecnologico, il termine si riferisce alla famiglia di serpenti costrittori dei pitoni).
+
+Contesto:
+Sviluppo software, intelligenza artificiale, analisi dei dati (data science), sviluppo web e automazione (scripting).
+
+Esempio:
+Uno scienziato dei dati può utilizzare Python per analizzare enormi quantità di statistiche aziendali, oppure uno sviluppatore può usarlo per programmare rapidamente un bot automatizzato.

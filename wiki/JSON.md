@@ -1,0 +1,10 @@
+Termine: JSON (JavaScript Object Notation)
+
+Descrizione:
+JSON è un formato universale e leggero utilizzato per memorizzare e scambiare dati tra sistemi informatici. Struttura le informazioni utilizzando un semplice sistema di coppie "chiave-valore" (simile a un dizionario), risultando estremamente facile da leggere e scrivere sia per gli esseri umani che per le macchine. Sebbene nasca dal linguaggio JavaScript, è uno standard completamente indipendente e supportato da quasi tutti i linguaggi di programmazione moderni.
+
+Contesto:
+Sviluppo web, [[REST API]], archiviazione di dati, comunicazione tra frontend e [[backend]], e file di configurazione software.
+
+Esempio:
+Nel frammento fornito, "name" e "age" sono le chiavi (le etichette), mentre "Mario" e 30 sono i rispettivi valori. Quando un'app richiede i dettagli di un profilo al server, il server restituisce le informazioni formattate esattamente in questo modo.

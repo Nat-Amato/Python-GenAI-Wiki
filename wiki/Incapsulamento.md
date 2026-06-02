@@ -1,0 +1,10 @@
+Termine: Incapsulamento
+
+Descrizione:
+L'incapsulamento è il meccanismo che permette di raggruppare i dati (variabili) e i metodi (funzioni) che li manipolano all'interno di una singola unità, nascondendone i dettagli interni al resto del programma. Questo principio protegge le informazioni da modifiche accidentali o non autorizzate, garantendo la sicurezza del codice. L'interazione con i dati avviene in modo controllato, esclusivamente tramite interfacce o metodi specifici previsti dal programmatore (spesso chiamati "getter" e "setter").
+
+Contesto:
+Sviluppo software e Programmazione Orientata agli Oggetti ([[OOP]]).
+
+Esempio:
+Pensa a un distributore automatico di caffè: tu interagisci solo con la pulsantiera esterna (l'interfaccia pubblica) per ottenere la bevanda, ma non hai accesso diretto all'acqua bollente, ai meccanismi interni o alla cassaforte delle monete (i dati protetti e nascosti dall'incapsulamento).

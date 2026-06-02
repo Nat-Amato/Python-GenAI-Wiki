@@ -1,0 +1,14 @@
+Termine: Temperatura (nei Large Language Models)
+
+Descrizione:
+La temperatura è un parametro matematico fondamentale che controlla il livello di casualità e creatività nelle risposte generate da un'intelligenza artificiale. Durante la generazione del testo, il modello calcola una lista di possibili parole successive ([[token]]) assegnando a ciascuna una determinata probabilità. Modificare la temperatura significa alterare questa distribuzione:
+
+Valori vicini allo 0 (es. 0.0 - 0.2): Rendono il modello estremamente conservativo e deterministico. L'AI sceglierà quasi sempre il [[token]] con la probabilità più alta (un processo chiamato greedy decoding). È l'impostazione ideale per compiti analitici, calcoli matematici, scrittura di codice o estrazione di dati, dove la precisione assoluta è prioritaria e non si vuole lasciare spazio alla fantasia.
+
+Valori alti (es. 0.7 - 1.0 e oltre): "Appiattiscono" le probabilità, livellando il campo da gioco e dando la possibilità alle parole meno ovvie e statisticamente più rare di essere scelte. Il testo diventa più originale, vario e discorsivo, ma aumenta parallelamente il rischio di divagazioni, incoerenze o "allucinazioni" (informazioni inventate o fuori contesto).
+
+Contesto:
+Intelligenza Artificiale Generativa, ingegneria dei [[prompt]] ([[prompt engineering]]), configurazione di [[API]] per modelli AI (come Gemini, GPT o Claude) e sviluppo di applicazioni basate sull'intelligenza artificiale.
+
+Esempio:
+Se chiedi all'AI di completare la frase "Il gatto dorme...", con una Temperatura a 0 risponderà quasi sicuramente "...sul divano" (l'opzione statisticamente più probabile nei testi su cui è stata addestrata). Con una Temperatura a 1.2, potrebbe sorprenderti completando la frase con "...sognando galassie di gomitoli luminosi", preferendo percorsi linguistici molto più creativi e inaspettati.
