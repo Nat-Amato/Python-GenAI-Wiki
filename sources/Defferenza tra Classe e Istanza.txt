@@ -1,0 +1,10 @@
+Termine: Classe e Istanza
+
+Descrizione:
+In programmazione, una classe è il modello astratto o lo stampo (blueprint) che definisce la struttura, le caratteristiche (attributi) e i comportamenti (metodi) di un certo tipo di elemento. Un'istanza (spesso chiamata semplicemente "oggetto") è la realizzazione concreta di quel modello all'interno della memoria del programma, dotata di valori specifici e indipendenti. Da una singola classe è possibile generare un numero illimitato di istanze.
+
+Contesto:
+Sviluppo software e Programmazione Orientata agli Oggetti (OOP).
+
+Esempio:
+Pensa alla classe come al progetto architettonico di una casa su carta: definisce che ci sarà un tetto, una porta e delle finestre. L'istanza è la casa vera e propria costruita con i mattoni: puoi usare lo stesso progetto (classe) per costruire decine di case fisiche (istanze), ognuna magari dipinta con un colore diverso o abitata da famiglie differenti.

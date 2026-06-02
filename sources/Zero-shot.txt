@@ -1,0 +1,10 @@
+Termine: Zero-shot
+
+Descrizione:
+Il termine "zero-shot" si riferisce alla capacità di un modello di intelligenza artificiale di eseguire un compito o riconoscere un concetto senza aver prima ricevuto alcun esempio di addestramento specifico per quella precisa attività. Il modello sfrutta unicamente la sua vasta conoscenza generale pregressa per interpretare le istruzioni e dedurre la soluzione corretta.
+
+Contesto:
+Intelligenza Artificiale, Machine Learning e Prompt Engineering.
+
+Esempio:
+Chiedere a un'intelligenza artificiale di scrivere una poesia in rima o di tradurre una frase dall'inglese all'italiano fornendo solo l'istruzione diretta, senza includere alcun esempio di poesia o di traduzione nel testo della richiesta.

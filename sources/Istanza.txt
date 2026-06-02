@@ -1,0 +1,10 @@
+Termine: Istanza (Python)
+
+Descrizione:
+In Python, un'istanza (o oggetto) è la realizzazione concreta in memoria di una specifica classe. Quando si "istanzia" una classe, si dà vita a quel modello astratto, creando un elemento reale con i propri dati e valori (chiamati attributi di istanza). Ogni istanza creata è completamente indipendente dalle altre, anche se derivano dallo stesso identico stampo, e in Python si genera semplicemente scrivendo il nome della classe seguito dalle parentesi tonde.
+
+Contesto:
+Sviluppo software, scripting e Programmazione Orientata agli Oggetti (OOP) in Python.
+
+Esempio:
+Avendo definito la classe Utente, scrivendo utente_uno = Utente() si crea una specifica istanza. Puoi impostare utente_uno.nome = "Marco", mentre una seconda istanza creata con utente_due = Utente() potrà avere utente_due.nome = "Giulia"; pur condividendo gli stessi metodi, i loro dati rimangono separati e indipendenti.

@@ -1,0 +1,10 @@
+Termine: Embedding (Incorporamento)
+
+Descrizione:
+L'embedding è una tecnica fondamentale nell'intelligenza artificiale che permette di tradurre dati complessi, come parole, intere frasi o immagini, in lunghe liste di numeri (chiamate vettori). Dato che i computer non comprendono il testo, questa conversione numerica serve a mappare il significato e il contesto delle informazioni all'interno di uno spazio geometrico virtuale ad alta dimensionalità. Il principio di base è che concetti con significati simili avranno coordinate numeriche molto vicine tra loro, permettendo alla macchina di "capire" le relazioni e le sfumature semantiche.
+
+Contesto:
+Intelligenza Artificiale, Elaborazione del Linguaggio Naturale (NLP), motori di ricerca semantica, sistemi di raccomandazione (come quelli di Netflix o Spotify) e architetture RAG.
+
+Esempio:
+Grazie agli embedding, un'AI "sa" che le parole "cane" e "lupo" sono concetti simili perché i loro vettori numerici si trovano vicini nello spazio. Questo permette anche di fare letteralmente "matematica con le parole": il modello impara che se si prende il vettore della parola "Re", si sottrae il concetto di "Uomo" e si aggiunge quello di "Donna", il risultato matematico sarà quasi identico al vettore della parola "Regina".

@@ -1,0 +1,10 @@
+Termine: SQLAlchemy
+
+Descrizione:
+SQLAlchemy è un potente strumento per Python che fa da ponte tra il tuo codice e i database relazionali (come MySQL, PostgreSQL o SQLite). Agisce principalmente come un ORM (Object-Relational Mapper), il che significa che ti permette di interagire con il database manipolando normali oggetti Python anziché dover scrivere manualmente complesse istruzioni in linguaggio SQL. Questo approccio velocizza lo sviluppo, rende il codice più sicuro e facilita eventuali cambi di database in futuro.
+
+Contesto:
+Sviluppo backend (es. Flask, FastAPI), ingegneria dei dati e gestione di database relazionali.
+
+Esempio:
+Invece di dover scrivere una query SQL tradizionale come SELECT * FROM utenti WHERE eta > 18, con SQLAlchemy puoi ottenere lo stesso risultato scrivendo codice Python molto più leggibile, come session.query(Utente).filter(Utente.eta > 18).all().

@@ -1,0 +1,48 @@
+Termine: LangChain
+
+Descrizione Generale:
+LangChain è un framework open-source potentissimo e molto popolare, progettato per semplificare la creazione di applicazioni basate sui Large Language Models (LLM). Il suo scopo principale è permettere agli sviluppatori di non limitarsi a fare semplici domande a un'AI, ma di "incatenare" il modello a fonti di dati esterne, memorie, calcolatrici e altri strumenti, trasformandolo nel "cervello" di sistemi software complessi e autonomi.
+
+Ecco i quattro concetti fondamentali che hai richiesto:
+
+1. Prompt Template (Modelli di Prompt)
+Descrizione:
+Un Prompt Template è una struttura predefinita e riutilizzabile per generare prompt in modo dinamico. Invece di scrivere ogni volta un'istruzione da zero mescolando codice e testo, si crea uno "stampo" fisso contenente delle variabili (simili ai campi vuoti di un modulo). Al momento dell'esecuzione, LangChain riempie queste variabili con i dati in input (inseriti dall'utente o recuperati da un database) e invia il prompt completo all'LLM.
+
+Esempio:
+Invece di scrivere manualmente "Traduci cane in francese", scrivi un template: "Agisci come un traduttore esperto. Traduci la parola {parola} in {lingua}". Il codice poi inietterà automaticamente i valori al posto di {parola} e {lingua} a seconda di ciò che chiede l'utente nell'app.
+
+2. Chains (Catene)
+Descrizione:
+Le Chains sono il cuore pulsante e il concetto che dà il nome a LangChain. Una catena è una sequenza di operazioni logiche collegate tra loro, dove l'output di un componente diventa automaticamente l'input di quello successivo. Permettono di automatizzare flussi di lavoro complessi assemblando mattoncini semplici.
+
+Esempio:
+Puoi creare una catena base formata da tre passaggi:
+
+Prende il testo dell'utente e lo inserisce nel Prompt Template.
+
+Invia il prompt formattato all'LLM (es. OpenAI o Gemini).
+
+Passa la risposta dell'AI a un Output Parser, che la pulisce e la trasforma in un formato JSON pronto per essere letto dal tuo database.
+
+3. Memory (Memoria)
+Descrizione:
+Di base, le API dei modelli linguistici sono stateless (senza stato): non hanno memoria delle richieste precedenti e trattano ogni input come se fosse la prima volta che ti parlano. Il modulo Memory di LangChain risolve questo problema archiviando lo storico della conversazione. A ogni nuova interazione, LangChain estrae la cronologia salvata e la inietta di nascosto nel prompt, dando all'LLM il contesto necessario per sostenere un dialogo coerente nel tempo.
+
+Esempio:
+Se chiedi a un chatbot "Chi ha diretto Inception?", ti risponderà "Christopher Nolan". Se subito dopo chiedi "In che anno è nato?", senza la Memory l'LLM non saprebbe di chi stai parlando. Con la Memory, LangChain gli ricorda la battuta precedente, permettendogli di rispondere correttamente con la data di nascita del regista.
+
+4. RAG in LangChain
+Descrizione:
+Come abbiamo visto, la RAG (Retrieval-Augmented Generation) serve a fornire dati esterni e privati all'AI. LangChain fornisce l'intero "tubo" (pipeline) di strumenti necessari per costruirla da zero:
+
+Document Loaders: Per leggere file (PDF, Word, CSV, siti web).
+
+Text Splitters: Per spezzettare i documenti lunghi in paragrafi più piccoli e digeribili dall'AI.
+
+Embeddings & Vector Stores: Per convertire i frammenti in numeri (vettori) e salvarli in un database vettoriale.
+
+Retrievers: Per pescare il frammento giusto quando l'utente fa una domanda, passandolo all'LLM per generare la risposta esatta.
+
+Esempio:
+Usi LangChain per caricare il manuale di 500 pagine del tuo software aziendale. Quando un dipendente chiede "Come si resetta la password?", il Retriever di LangChain va a pescare solo il paragrafo pertinente nel database vettoriale e lo consegna all'LLM, che a sua volta formula una risposta chiara e sintetica per il dipendente.

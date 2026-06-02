@@ -1,0 +1,10 @@
+Termine: Gestione delle Eccezioni (try/except/finally)
+
+Descrizione:
+La gestione delle eccezioni è un meccanismo per intercettare gli errori a tempo di esecuzione (blocco try) e gestirli senza causare l'interruzione improvvisa del programma (blocco except). A differenza di un normale costrutto if, che previene un errore verificando le condizioni prima di agire, il try/except tenta direttamente l'operazione e ne gestisce il fallimento solo se questo si verifica effettivamente. Il blocco finally serve invece a eseguire istruzioni che devono necessariamente essere lanciate alla fine del processo, indipendentemente dal fatto che l'errore si sia verificato o meno.
+
+Contesto:
+Sviluppo software, robustezza del codice e debugging (comune in linguaggi come Python, Java, C#, ecc.).
+
+Esempio:
+Provi ad aprire e leggere un file (try); se il file non esiste o è corrotto, mostri un messaggio personalizzato invece di far andare in crash l'applicazione (except), e alla fine ti assicuri comunque di chiudere la connessione al disco per liberare la memoria (finally).

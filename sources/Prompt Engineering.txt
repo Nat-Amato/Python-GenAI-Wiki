@@ -1,0 +1,25 @@
+Termine: Prompt Engineering (Ottimizzazione del Prompt)
+
+Descrizione:
+Il Prompt Engineering è l'arte e la scienza di formulare istruzioni ottimali per i modelli di intelligenza artificiale. Per migliorare un prompt e trasformare una richiesta vaga in un comando altamente efficace, è consigliabile strutturare la richiesta seguendo questi principi fondamentali:
+
+Assegna un ruolo: Definisci "chi" deve essere l'AI (es. "Agisci come un programmatore Python Senior" o "Sei un copywriter persuasivo"). Questo aiuta il modello a calibrare il tono e il livello tecnico.
+
+Fornisci il contesto: Spiega l'obiettivo e il pubblico di riferimento (es. "Spiega questo concetto a un bambino di 10 anni" oppure "Serve per una relazione finanziaria destinata agli investitori").
+
+Sii specifico nell'istruzione: Sostituisci richieste generiche con dettagli misurabili (es. invece di "Scrivi un testo lungo", usa "Scrivi un saggio di 500 parole suddiviso in 3 paragrafi").
+
+Definisci il formato di output: Indica esattamente come vuoi che le informazioni vengano presentate (es. "Restituisci i dati in una tabella con due colonne", "Usa un elenco puntato", "Formatta la risposta in JSON").
+
+Imposta dei vincoli (Guardrails): Specifica esplicitamente cosa l'AI non deve fare (es. "Non utilizzare gergo tecnico", "Non superare le 150 parole").
+
+Fornisci esempi (Few-Shot Prompting): Inserisci nel prompt uno o due esempi del risultato che ti aspetti. Questo è il modo più rapido per insegnare all'AI lo stile e il pattern desiderati.
+
+Contesto:
+Interazione uomo-macchina, ottimizzazione dei flussi di lavoro, intelligenza artificiale generativa e automazione di processi aziendali.
+
+Esempio:
+
+Prompt debole: "Scrivi un post su Python."
+
+Prompt ottimizzato: "Agisci come un social media manager. Scrivi un post per LinkedIn di massimo 150 parole per promuovere un nuovo corso base di Python. Il tono deve essere professionale ma incoraggiante. Includi un elenco puntato con 3 motivi per cui imparare Python oggi ed elenca esattamente 2 hashtag alla fine. Non usare emoji."
